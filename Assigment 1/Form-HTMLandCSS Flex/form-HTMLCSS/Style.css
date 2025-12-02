@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Concert+One&family=Unbounded&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #abb7ee;
+    color: #333;
+
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px;
+}
+.about {
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.25;
+    font-size: 16px;
+        
+
+}
+.table-header{
+    border: 2px solid;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 20%;
+    font-family: "Concert One", cursive;
+    font-size: 18px;
+    color: #210f0f;
+    background-color: palegoldenrod;
+}
+.table-value {
+    border: 2px solid #333;
+    padding: 12px;
+    text-align: center;
+    color: #090707;
+    background-color: aqua;
+} 
+#para {
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.25;
+    font-size: 16px;
+    background-color: rgb(225, 136, 230);
+}

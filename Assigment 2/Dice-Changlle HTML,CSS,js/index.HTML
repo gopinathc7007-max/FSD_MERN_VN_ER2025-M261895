@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 id="result">🎉Let's Play!🎉</h1>
+    <div class="container">
+        <div>
+            <p id="pl1">Player 1</p>
+            <img id="click1" style="padding: 10px;" src="./dice1.png" alt="" height="150px" width="150px">
+        </div>
+        <div>
+            <p id="pl2">Player 2</p>
+            <img id="click" style="padding: 10px;" src="./dice1.png" alt="" height="150px" width="150px">
+        </div>
+    </div><br><br>
+
+
+    <div id="B1"><button id="rollbut">Roll Dice</button></div>
+
+
+
+    <script>
+        
+        let s1=document.getElementById("result")
+
+        let play1 = document.getElementById("click1");
+        let play2 = document.getElementById("click");
+
+
+        const getbut = document.getElementById("rollbut");
+
+        getbut.addEventListener("click", function () {
+            const var1 = Math.floor((Math.random()*6)+1);
+            const var2 = Math.floor((Math.random()*6)+1);
+            play1.src=`./dice${var1}.png`
+            play2.src=`./dice${var2}.png`
+
+            if(var1>var2) {
+                s1.textContent="🚩Player 1 win!🚩";
+            } else if(var2>var1) {
+                s1.textContent="🚩Player 2 win!🚩";
+
+            } else {
+                s1.textContent="🏳️Draw !🏳️";
+            }
+
+        });
+        
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+
+*{
+    background-color: rgb(227, 131, 249);
+}
+#result{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.container{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+
+}
+
+#B1{
+    display: flex;
+    justify-content: center;
+
+}
+#rollbut{
+    
+
+    background-color: aqua;
+}
+#pl1{
+    margin-left:10px ;
+
+}
+#pl2{
+    margin-left: 10px;
+}
